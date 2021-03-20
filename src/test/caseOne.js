@@ -1,4 +1,4 @@
-const Graph = require('../logic/class/Graph');
+const Graph = require('./graph');
 
 var g = new Graph(5);
     g.addVertex(0);

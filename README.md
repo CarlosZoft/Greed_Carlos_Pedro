@@ -1,44 +1,35 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Worm domination
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 8<br>
+**Conteúdo da Disciplina**: Greed<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0118005	  |  Carlos Rafael Vasconcelos de Matos |
+| 17/0020525  |  Pedro Henrique de Lima Malaquias |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+Dado um grafo, o usuário terá que analisar e responder menor número (aproximadamente) de dispositivos, capazes de infectar a maioria dos outros usuários conectados. Considerando que as vertices do grafo são dispositivos, e as arestas, são conexões entre os dispositivos. 
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+![](src/images/explicacao.png)
+![](src/images/graphvisualization.png)
+![](src/images/numberOfDevices.png)
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**: JavaScript<br>
+**Biblioteca**: Vis.js<br>
 
 ## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
+* Internet
+* Navegador
+* Basta abrir o arquivo [Index.html](src/views/index.html) pelo navegador.
+## Algoritmo/Solução 
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+O algoritmo ultilizado no trabalho (Vertex Cover), faz parte do subconjunto dos problemas NP - Difícil, ou seja, improvável que haja um algoritmo eficiente para resolvê-lo exatamente para grafos arbitrários. Porém, existem soluções por aproximação. 
+
+## Saiba mais : [Vertex Cover](https://en.wikipedia.org/wiki/Vertex_cover)
 
 
 
